@@ -1,0 +1,108 @@
+/*@import url(https://fonts.googleapis.com/css?family=Poiret+One|Asap|Questrial);*/
+@import url(https://fonts.googleapis.com/css?family=Questrial|Source+Sans+Pro);
+
+html, body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #f7faff;
+}
+
+.navbar
+{
+  background-color: black;
+  border-color: #050442;
+}
+
+#navbar a {
+  color: white;
+}
+
+#navbar a:hover {
+  background-color: #393E40;
+}
+
+#navbar .active
+{
+  background-color: #393E40;
+}
+
+.navbar-inverse .navbar-brand {
+  font-family: 'Questrial', sans-serif;
+  font-size: 24px;
+  color: #E8F1FA;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+#index-top {
+  background-color: #EDF0F9;
+  background-image: url('../images/demo-screenshot1-shift2.png');
+  background-position: center; 
+  background-repeat:no-repeat;
+  min-height: 800px;
+}
+
+#index-top .container {
+  padding-top:200px;
+  padding-bottom: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #1984FF;
+  
+}
+
+#index-top .container h1 {
+  padding-bottom: 50px;
+  display:block;
+  /*font-family: 'Poiret One', cursive;*/
+  /*font-family: 'Asap', sans-serif;*/
+  font-family: 'Questrial', sans-serif;
+  color: #FF9419;
+  text-shadow: 0px 2px 2px #A4A4A4;
+  font-size: 110px;
+}
+
+#index-top .container .btn {
+  margin-top: 60px;
+  
+}
+
+#wip-warning {
+  text-align: center;
+}
+
+#quick-desc {
+  background-color: #2C333B;
+  color: #CAD4E0;
+  text-align: center;
+  
+}
+
+#quick-desc p {
+  line-height: 1.8em;
+  font-size: 1.7em;
+}
+
+#wip-warning {
+  background-color: #FFEA00;
+  color: #807500;
+}
+
+#front-page {
+  margin-top: 50px;
+}
+
+#front-page #front-top .col-lg-4 {
+  text-align:center;
+}
+
+.page-container {
+  padding-top:60px;
+  overflow: auto;
+  background-color: white;
+}
+
+.side-menu {
+  padding-top: 40px;
+}
